@@ -1,0 +1,10 @@
+numpy==1.19.4
+onnx==1.8.0
+onnx-simplifier==0.2.22
+onnxoptimizer==0.1.2
+onnxruntime==1.6.0
+opencv-python==4.4.0.46
+tensorboard-plugin-wit==1.7.0
+tensorrt #TensorRT-7.2.2.3
+torch==1.7.1
+torchvision
