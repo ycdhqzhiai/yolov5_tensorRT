@@ -167,6 +167,7 @@ def draw_results(img, boxes, confs, classes):
     for box, conf, cls in zip(boxes, confs, classes):
         # draw rectangle
         x1, y1, x2, y2 = box
+        x1, y1, x2, y2=(int)(x1),(int)(y1),(int)(x2),(int)(y2)
         conf = conf[0]
         cls_name = coco[cls]
         color = color_list[cls]
